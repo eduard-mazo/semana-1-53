@@ -4,81 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>semana-1-53</title>
+    <title>SEMANA-1-53</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class = "container">
-        <div class = "header">
+        <header class="sticky">
             <div class = "container-menu">
-                <div class = "container-logo">
-                    <h1 class="site-title">semana-1-53</h1>
-                </div>
+                <h1>SEMANA-1-53</h1>
             </div>
             <nav class="nav-list">
                 <ul class="main-menu">
-                    <li class="main-menu__item">
-                        <a href="#" class="main-menu__link">Inicio</a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#" class="main-menu__link">Servicios</a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#" class="main-menu__link">Noticias</a>
-                    </li>
-                    <li class="main-menu__item">
-                        <a href="#" class="main-menu__link">Equipo</a>
-                    </li>
+                    <li><a href="#inicio" class="main-menu__link">Inicio</a></li>
+                    <li><a href="#services" class="main-menu__link">Servicios</a></li>
+                    <li><a href="#news" class="main-menu__link">Noticias</a></li>
+                    <li><a href="#team" class="main-menu__link">Equipo</a></li>
                 </ul>
             </nav>
-        </div>
-
-        <div class="container-image"></div>
-        
-        <div class="section1" id = "services">
-            <p class="section-text">SERVICIOS</p>
-            <div class = "servicios__items">
-                <div class="servicios__items--first">
-                    <div class="service-content">
-                        <img  src="img/software.png" style="height:150px">
-                        <h2>
-                            Desarrollo de Sotware
-                        </h2>
-                        <p class="service-text">
-                            Convertimos objetivos de negocio en soluciones de software que resuelven problemas, reducen “time to market” y entregan valor de negocio...
-                        </p>
-                        <span class="news-url"><a href="#">Saber más >></a></span>
-                    </div>
+        </header>
+        <section class="scroll" id="inicio">
+            <img src="img/Background.png" class="container-image">
+        </section>
+        <section class="scroll" id = "services">
+            <header class="section-text">
+                <h2>SERVICIOS</h2>
+            </header>
+            <div class="card-container">
+                <div class="card azul-claro">
+                    <img  src="img/software.png">
+                    <h2>Desarrollo de Sotware</h2>
+                    <p class="service-text flexible">
+                        Convertimos objetivos de negocio en soluciones de software que resuelven problemas, reducen “time to market” y entregan valor de negocio...
+                    </p>
+                    <span class="news-url"><a href="#">Saber más >></a></span>
                 </div>
-                <div class="servicios__items--second">
-                    <div class="service-content">
-                        <img  src="img/web.png" style="height:150px">
-                        <h2>
-                            Diseño de Sitios Web
-                        </h2>
-                        <p class="service-text">
-                            Los profesionales de nuestra compañía llevan a cabo actividades de análisis, diseño, construcción, pruebas e implementación a la medida de las necesidades de nuestros clientes.
-                        </p>
-                        <span class="news-url"><a href="#">Saber más >></a></span>
-                    </div>
+                <div class="card rojo">
+                    <img  src="img/web.png">
+                    <h2>
+                        Diseño de Sitios Web
+                    </h2>
+                    <p class="service-text flexible">
+                        Los profesionales de nuestra compañía llevan a cabo actividades de análisis, diseño, construcción, pruebas e implementación a la medida de las necesidades de nuestros clientes.
+                    </p>
+                    <span class="news-url"><a href="#">Saber más >></a></span>
                 </div>
-                <div class="servicios__items--third">
-                    <div class="service-content">
-                        <img  src="img/app.png" style="height:150px">
-                        <h2>
-                            Aplicaciones Móviles
-                        </h2>
-                        <p class="service-text">
-                            Te acompañamos desde la definición de tu objetivo de negocio y las razones por las cuales quieres desarrollar tu proyecto móvil, hasta la puesta en marcha de tu producto...
-                        </p>
-                        <span class="news-url"><a href="#">Saber más >></a></span>
-                    </div>
+                <div class="card amarillo">
+                    <img  src="img/app.png">
+                    <h2>
+                        Aplicaciones Móviles
+                    </h2>
+                    <p class="service-text flexible">
+                        Te acompañamos desde la definición de tu objetivo de negocio y las razones por las cuales quieres desarrollar tu proyecto móvil, hasta la puesta en marcha de tu producto...
+                    </p>
+                    <span class="news-url"><a href="#">Saber más >></a></span>
                 </div>
             </div>
-        </div>
-
-        <div class="section2" id = "news">
-            <p class="section-text">NOTICIAS</p>
+        </section>
+        <section class="scroll" id = "news">
+            <header class="section-text">
+                <h2>NOTICIAS</h2>
+            </header>
             <div class="section-news">
                 <div class="news">
                     <div class="news-data" style="background-color: #e88073;">
@@ -128,103 +114,74 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-        </div>
-    </div>
-    <main>
+        </section>
         <!-- inicio seccion 4 -->
-        <section id="team">
-            
-            <style>
-                .subtitle {text-align: center;background-color:#8e8d89;color: white;}
-                .students {display: flex; text-align: center;}
-                .student1 {background-color:#a8d1e7;}
-                .student2 {background-color:#e88073;}
-                .student3 {background-color:#a8d1e7;}
-                .student4 {background-color:#e88073;}
-                .student5 {background-color:#a8d1e7;}
-                .foot {display: inline-flex;background-color:#24315e; color: white;}
-                .description {width: 50%;text-align: justify;margin: 20px;}
-                .data {width: 50%;text-align: left;margin: 20px;}
-                .info {list-style-type: none;text-align: left;}
-                .contacts {display: flex;}
-                .contacts1 {list-style-type: none;text-align: left;}
-                .contacts2 {list-style-type: none;text-align: left;}
-            </style>
-    
-            <div class = "subtitle">
-                <h2>EQUIPO</h2>
-            </div>
-    
-            <div class ="students">
-    
-                <div class ="student1">
+        <section class="scroll" id="team">
+            <header class="section-text">
+                <h2>EQUIPO</2>
+            </header>
+            <div class ="card-container">
+                <div class ="card azul-claro">
                     <h3>EDUARD MAZO</h3>
-                    <img src="https://avatars.githubusercontent.com/eduard-mazo" width="150" height="200">
+                    <img class="avatar" src="https://avatars.githubusercontent.com/eduard-mazo">
                     <ul class ="info">
                         <li>INSTITUCIÓN EDUCATIVA: Universidad de Antioquia </li>
                         <li>EDAD: 30 años</li>
                         <li>PASATIEMPOS: Microfutbol, cine, programación</li>
-                      </ul>
+                    </ul>
                 </div>
-                <div class ="student2">
+                <div class ="card rojo">
                     <h3>ALEJANDRO VALENCIA</h3>
-                    <img src="img\Alejandro.jpg" width="150" height="200">
+                    <img class="avatar" src="img\Alejandro.jpg">
                     <ul class ="info">
                         <li>INSTITUCIÓN EDUCATIVA: Universidad de Antioquia</li>
                         <li>EDAD: 29 años</li>
                         <li>PASATIEMPOS: Cine, lectura de terror, cocinar</li>
-                      </ul>
+                    </ul>
                 </div>
-                <div class ="student3">
+                <div class ="card azul-claro">
                     <h3>KAREN SUAREZ</h3>
-                    <img src="img\Karen.jpg" width="150" height="200">
+                    <img class="avatar" src="img\Karen.jpg">
                     <ul class ="info">
                         <li>INSTITUCIÓN EDUCATIVA: Universidad Distrital</li>
                         <li>EDAD: 32 años</li>
                         <li>PASATIEMPOS: Practicar cliclismo</li>
-                      </ul>
+                    </ul>
                 </div>
-                <div class ="student4">
+                <div class ="card rojo">
                     <h3>ESTEBAN ENCIZO</h3>
-                    <img src="https://placeimg.com/150/200/people">
+                    <img class="avatar" src="https://placeimg.com/150/200/people">
                     <ul class ="info">
-                        <li>INSTITUCIÓN EDUCATIVA: xxxxxxxxxxxxxxxx </li>
+                        <li>INSTITUCIÓN EDUCATIVA: xxxxx </li>
                         <li>EDAD: xx</li>
-                        <li>PASATIEMPOS: xxxxxxxxxxxxxxxx </li>
-                      </ul>
+                        <li>PASATIEMPOS: xxxxx </li>
+                    </ul>
                 </div>
-                <div class ="student5">
+                <div class ="card azul-claro">
                     <h3>JULIAN MANRIQUE</h3>
-                    <img src="https://placeimg.com/150/200/people">
+                    <img class="avatar" src="https://placeimg.com/150/200/people">
                     <ul class ="info">
-                        <li>INSTITUCIÓN EDUCATIVA: xxxxxxxxxxxxxxxx</li>
-                        <li>EDAD: xx</li>
-                        <li>PASATIEMPOS: xxxxxxxxxxxxxxxx</li>
-                      </ul>
+                        <li>INSTITUCIÓN EDUCATIVA: xxxxx</li>
+                        <li>EDAD: xxxxx</li>
+                        <li>PASATIEMPOS: xxxxx</li>
+                    </ul>
                 </div>
             </div>
-         
         </section>  
-        <!-- fin seccion 4 -->
-        </main>                 
-    
+        <!-- fin seccion 4 -->          
         <footer>
             <div class ="foot">
                 <div class ="description">
                     <h2>DESCRIPCION</h2>
                     <p>Esta página Web se crea con el objetivo de aplicar los conocimientos adquiridos durante la semana 1 del ciclo 3 del curso de programación dictado por la UPT como operador del Ministerio TIC Colombia. Este es un primer acercamiento con la programación web formarnos como programadores y en futuro aplicar los conocimientos adquiridor al campo laboral y productivo. </p>
-                   
                     <h3>Enlace al repositorio de github</h3>
                     <p><a href="https://github.com/eduard-mazo/semana-1-53.git">Visita nuestro Repositorio en gitHub</a></p>
                 </div>
                 <div class ="data">
                     <h2>DATOS DE CONTACTO</h2>
-                  <div class="contacts">
-                      <div>
+                    <div class="contacts">
+                        <div>
                         <li>PRODUCT OWNER:
                             <ul class="contacts1">
                             <li>Eduard Mazo</li>
@@ -255,5 +212,6 @@
                 </div>
             </div>  
         </footer>
+    </div>
 </body>
 </html>
