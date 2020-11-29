@@ -18,3 +18,19 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
   El elemento donde están los servicios debe de tener un `id=”team”`
 
 - Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+
+## AUTORES
+
+EDUARD MAZO
+ALEJANDRO VALENCIA
+KAREN SUAREZ
+
+NOTA: El branch main en Github no permite realizar push directos.
+
+Con el iss2-3 se realiza el primer merge al branch main, este branch contiene todas las modificaciones para visualizar la sección de noticias y servicios. Este branch es realizado por ALEJANDRO VALENCIA.
+
+iss4-5 fue un branch un poco más complica, al estar en fase de aprendizaje, no se crea correctamente el vínculo entre mi repositorio remoto y el local, por lo que realizar el merge de este branch es tedioso, es necesario revisar el documento y hacer el merge manualmente. Este branch es realizado por KAREN SUAREZ.
+
+para el iss1 se realiza el link de las secciones, como también se depuran los estilos usados en los iss previos, con el fin de eliminar duplicados. Este branch es realizado por EDUARD MAZO.
+
+El iss6 es en el que se está documentando el archivo README para plasmar la información de cada cambio realizado.
