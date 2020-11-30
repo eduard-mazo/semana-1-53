@@ -34,3 +34,5 @@ iss4-5 fue un branch un poco más complica, al estar en fase de aprendizaje, no 
 para el iss1 se realiza el link de las secciones, como también se depuran los estilos usados en los iss previos, con el fin de eliminar duplicados. Este branch es realizado por EDUARD MAZO.
 
 El iss6 es en el que se está documentando el archivo README para plasmar la información de cada cambio realizado.
+
+Con el iss1 nuevamente se corrigen algunos errores por clases duplicadas, se indenta el html, se organiza un poco la estructura de la página.
